@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EdtTL"
+    android:background="#234"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/islemciTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İşlemci"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/ramTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ram"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/kameraTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kamera"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/boyutTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Boyut"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/isletimTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İşletim Sistemi"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/bataryaTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Batarya Amper"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/hafizaTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hafıza Boyutu"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/butonEditTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEÇ"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical"
+    android:background="#567">
+
+    <TextView
+        android:id="@+id/islemciPcFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="İŞLEMCİ:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ramPcFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="RAM:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ekranPcFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="EKRAN:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/boyutPcFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="BOYUT:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/isletimPcFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="İSLETİM:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/hafizaTipPcFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="HAFIZA TİP:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/hafizaPcFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="HAFIZA:"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

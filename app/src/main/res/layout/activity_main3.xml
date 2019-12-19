@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#234"
+    android:orientation="vertical"
+    tools:context=".EdtPC">
+
+    <TextView
+        android:id="@+id/textPc"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/islemciPc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İşlemci"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/ramPc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ram"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/ekranPc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ekran Kartı"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/boyutPc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Boyut"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/isletimPc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İşletim Sistemi"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/hafizaTipPc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hafıza tipi(SSD/HDD)"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/hafizaPc"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hafıza Boyutu"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/butonEditPc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="SEÇ"
+        android:textSize="30dp" />
+
+
+</LinearLayout>

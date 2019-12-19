@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#234"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:padding="60dp"
+        android:textColor="@color/colorAccent"
+        />
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <RadioButton
+            android:id="@+id/bir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="bir" />
+
+        <RadioButton
+            android:id="@+id/iki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="iki"
+            />
+        <RadioButton
+            android:id="@+id/uc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="uc"
+            />
+
+
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/butonUrun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="MARKA SEÇ"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:id="@+id/butonListele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="OLUŞTURULAN ÜRÜNLER"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"/>
+    <Button
+        android:id="@+id/UrunYolla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ÜRÜNLERİ YOLLA"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"/>
+
+
+</LinearLayout>
